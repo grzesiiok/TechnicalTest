@@ -79,6 +79,7 @@ def design():
         print("Employee Added Successfully ")
         menu()
 
+#adding employee to departament
 def adding_emp2dep():
     Id = input("Enter Employee Id : ")
 
@@ -95,6 +96,7 @@ def adding_emp2dep():
         print("Employee Added Successfully ")
         menu()
 
+#deleting employee to departament
 def del_emp2dep():
     Id = input("Enter Employee Id : ")
 

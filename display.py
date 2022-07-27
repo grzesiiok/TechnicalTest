@@ -1,4 +1,6 @@
 import mysql.connector
+
+#Display tables
 con = mysql.connector.connect(user ='root', password= 'p', host = '127.0.0.1',port='3306', database='coindb')
 def employers():
     sql = 'select * from dep'

@@ -1,6 +1,7 @@
 import pyodbc
 import pandas as pd
 
+#exporting employee to csv
 conn = pyodbc.connector.connect(user ='root', password= 'p', host = '127.0.0.1',port='3306', database='coindb')
 
 def tocsv():
